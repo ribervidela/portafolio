@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web Riber</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/movimiento.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="menu">
+            <a href="javascript:showHome('#home')" class="menu__item btnHome" id="home__buton">Inicio</a>
+            <a class="menu__item btnProjects"
+                href="javascript:showProjects('#projects','#project1','#project2','#project3')">Lo que hago</a>
+            <a class="menu__item btnSkills" id="btnSkills" href="javascript:showSkills('#skills','#skill1','#skilll2')">
+                Skills</a>
+            <a href="" class="menu__item" id="">Sobre mí</a>
+
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="home" id="home">
+            <div style="height: 250px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 248.02,-8.38 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                        style="stroke: none; fill:#ffffff;"></path>
+                </svg></div>
+            <div class="home__content">
+                <h1 class="subtitle">Hola soy Riber,<span class="subtitle__desc">Estudiante de IX ciclo, Ingeniería de
+                        Sistemas</span> </h1>
+                <figure class="home__img">
+                    <img src="img/riber.jpg" alt="">
+                </figure>
+            </div>
+            <div style="height: 250px;overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #ffffff;"></path>
+                </svg></div>
+        </section>
+        <!--Projects View-->
+        <section class="projects" id="projects">
+            <div class="projects__container">
+                <h1 class="projects__title">LO QUE PUEDO HACER</h1>
+                <a href="https://cubicadora-videla.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/cubicadora.png" alt="" class="project__img" id="project1"></a>
+                <a href="glassmorph.html" target="_blank" rel="noopener noreferrer">
+                    <img src="img/glassmorph.png" alt="" class="project__img" id="project2"></a>
+                <a href="landin-page.html" target="_blank" rel="noopener noreferrer">
+                    <img src="img/c-logo.png" alt="" class="project__img" id="project3"></a>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills__container">
+                <h1 class="skills__title">CONOCIMIENTOS</h1>
+                <figure class="skill__items">
+                    <img src="img/skills/html-logo.png" alt="" class="skills__img" id="skill1">
+                    <figcaption class="skills__img--title">HTML5
+                    </figcaption>
+                    <progress max="100" value="70"> </progress>
+                </figure>
+                <figure>
+                    <img src="img/skills/bootstrap-logo.png" alt="" class="skills__img" id="">
+                    <figcaption class="skills__img--title">BOOTSTRAP</figcaption>
+                    <progress max="100" value="40"> </progress>
+                </figure>
+                <figure>
+                    <img src="img/skills/css-logo.png" alt="" class="skills__img" id="skill2">
+                    <figcaption class="skills__img--title">CSS</figcaption>
+                    <progress max="100" value="60"> </progress>
+                </figure>
+                <figure>
+                    <img src="img/skills/javascript-logo.png" alt="" class="skills__img" id="">
+                    <figcaption class="skills__img--title">JAVASCRIPT</figcaption>
+                    <progress max="100" value="40"> </progress>
+                </figure>
+                <figure>
+                    <img src="img/skills/jQuery-logo.png" alt="" class="skills__img" id="">
+                    <figcaption class="skills__img--title">JQUERY</figcaption>
+                    <progress max="100" value="40"></progress>
+                </figure>
+                <figure>
+                    <img src="img/skills/java-logo.png" alt="" class="skills__img" id="">
+                    <figcaption class="skills__img--title">JAVA</figcaption>
+                    <progress max="100" value="40"> </progress>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

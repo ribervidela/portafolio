@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+  <link rel="stylesheet" href="css/estilos-reloj.css">
+</head>
+
+<body>
+  <div class="watch__container">
+    <button onclick="showRemaining()"></button>
+    <header>
+      WE'RE LAUNCHING SOON</header>
+    <main>
+      <div  >
+        <div class="box">
+          <div class="box__top"></div>
+          <div class="time" id="days"></div>
+          <div class="box__bot"></div>
+        </div>
+        <h1 class="time__word">
+          DÍAS</h1>
+      </div>
+      <div>
+        <div class="box">
+          <div class="box__top"></div>
+          <div class="time" id="hours"></div>
+          <div class="box__bot"></div>
+        </div>
+        <h1 class="time__word">
+          HORAS</h1>
+      </div>
+      <div>
+        <div class="box">
+          <div class="box__top"></div>
+          <div class="time" id="minutes"></div>
+          <div class="box__bot"></div>
+        </div>
+        <h1 class="time__word">
+          MINUTOS</h1>
+      </div>
+      <div>
+        <div class="box">
+          <div class="box__top"></div>
+          <div class="time" id="seconds"></div>
+          <div class="box__bot"></div>
+        </div>
+        <h1 class="time__word">
+          SEGUNDOS</h1>
+      </div>
+    </main>
+    <footer>
+      <figure>
+        <img src="img/reloj/icon-facebook.svg" alt="">
+      </figure>
+      <figure>
+        <img src="img/reloj/icon-instagram.svg" alt="">
+      </figure>
+      <figure>
+        <img src="img/reloj/icon-pinterest.svg" alt="">
+      </figure>
+
+    </footer>
+
+  </div>
+  <div class="hills"></div>
+  <script src="js/countdown.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+.header__container{
+    background: url(../images/bg-header-mobile.png);
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    width: auto;
+    display: grid;
+    
+}
+.header__img{
+    margin: 0;
+    padding:12% ;
+}
+
+.title{
+    color: hsl(210, 10%, 33%);
+    margin: 5% 4%;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+.subtitle{
+    color: hsl(210, 10%, 33%);
+    margin-top: 12%;
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.paragraph{
+    color:  hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin: 5% 3%;
+    line-height: 1.4em;
+    font-size: 1em;
+}
+.button__container{
+    display: flex;
+    flex-direction: column;
+}
+.button {
+   color: white;
+   margin: 2% auto;
+    width: 10%;
+width: fit-content;
+    outline: none;
+    padding: 4%;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 10px 11px 8px -4px rgba(120,108,108,0.3);
+}
+.button.ios{
+    background:hsl(171, 66%, 44%);
+}
+.button.mac{
+    background: hsl(233, 100%, 69%);
+}
+/*MAIN*/
+.principal__container{
+    margin: 40% 5%;
+}
+
+/*Seccion 1*/
+.first__section{
+    text-align: center;
+}
+.first__section-img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+   
+}
+/*Seccion 2*/
+.second__section{
+    text-align: center;
+    margin-top: 35%;
+}
+/*Seccion3*/
+.third__section{
+    text-align: center;
+}
+.third__section--figure{
+    margin-top: 25%;
+}
+/*Contenedor de Logos*/
+.log__container{
+    text-align: center;
+}
+.log__container figure{
+    margin: 20% auto;
+}
+/*seguno header__container*/
+.header__container.second{
+    background: none;
+}
+/*FOOTER*/
+.footer{
+    background: hsl(204, 17%, 94%);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+.footer >figure{
+    vertical-align:middle;
+}
+.footer img[src="images/logo.svg"]{
+    width: 40%;
+    height: 40%;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    color:hsl(210, 10%, 33%);
+    font-weight: 400;
+    margin: 3%;
+}
+.social__icons{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+ margin: 5% 5%;
+}
+.social__icons img{
+    margin: auto;
+    cursor: pointer;
+}

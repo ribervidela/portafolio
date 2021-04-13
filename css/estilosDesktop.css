@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@media screen and (min-width:700px) {
+    body {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 18px;
+    }
+    .header__container {
+        background: url(../images/bg-header-desktop.png);
+        background-size: cover;
+        object-fit: cover;
+        text-align: center;
+        width: auto;
+       
+    }
+    .header__img {
+        margin: 0;
+        padding: 7%;  
+    }
+    .title {
+        color: hsl(210, 10%, 33%);
+        margin: 1% 15%;
+        font-weight: 600;
+        font-size: 2.5em;
+      
+    }
+    .subtitle {
+        color: hsl(210, 10%, 33%);
+        margin-top: 15%;
+        margin-bottom: 2%;
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    .paragraph {
+        color: hsl(201, 11%, 66%);
+        font-weight: 400;
+        margin: 2% 20%;
+        line-height: 1.4em;
+        font-size: 1.4em;
+    }
+    .button__container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    .button {
+        color: white;
+        margin: 1%;
+        width: 20%;
+        outline: none;
+        padding: 2%;
+        border-radius: 25px;
+        border: none;
+        box-shadow: 10px 11px 8px -4px rgba(120, 108, 108, 0.3);
+        cursor: pointer;
+    }
+    .button.ios {
+        background: hsl(171, 66%, 44%);
+    }
+    .button.mac {
+        background: hsl(233, 100%, 69%);
+    }
+
+/*********--------*/
+/*MAIN*/
+.principal__container{
+    margin: 1% 5%;
+    
+}
+
+/*Seccion 1*/
+.first__section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.first__section-desktop{
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+    position:relative;
+}
+.first__section-desktop div{
+   position: absolute;
+   width: 40vw;
+   left: 50vw;
+   top: 12%;
+}
+
+.first__section-img{
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+    margin-top: 15%;
+    margin-right: 0%;
+transform: translateX(-250px);
+}
+.first__section-desktop p{
+    margin-left: 0;
+}
+.first__section-desktop h2{
+    margin-top:10%;
+}
+
+/*Seccion 2*/
+.second__section{
+    text-align: center;
+    margin-top: 15%;
+    overflow: hidden;
+}
+.second__section img[src="images/image-devices.png"]{
+  margin: auto;
+  margin-left: calc(33%);
+}
+/*Seccion3*/
+.third__section{
+    display: flex;
+    flex-direction: column;
+}
+.features__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.third__section--subtitle{
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 2%;
+        font-weight: 600;
+}
+.third__section--paragraph{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin: 2% 0;
+    line-height: 1.4em;
+    font-size: 1em;
+    text-align: center;
+}
+
+/*Contenedor de Logos*/
+.log__container{
+    text-align: center;
+    display: flex;
+}
+.log__container figure{
+    margin: 20% auto;
+}
+/*seguno header__container*/
+.header__container.second{
+    background: none;
+}
+/*FOOTER*/
+.footer{
+    background: hsl(204, 17%, 94%);
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.footer img[src="images/logo.svg"]{
+    width: 50%;
+    height: auto;
+    justify-self:center;
+}
+.footer__info{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2%;
+}
+.footer a{
+    display: flex;
+    text-decoration: none;
+    color:hsl(210, 10%, 33%);
+    font-weight: 400;
+    margin: 3%;
+}
+.social__icons{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+ margin: 5% 5%;
+}
+.social__icons img{
+    margin: 20%;
+}
+
+
+
+
+
+
+}
